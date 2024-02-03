@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - pwd
+      - ls
   pre_build:
     commands:
       - echo prebuild phase
