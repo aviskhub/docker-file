@@ -1,6 +1,9 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - pwd
   pre_build:
     commands:
       - echo prebuild phase
