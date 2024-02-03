@@ -5,6 +5,7 @@ phases:
     commands:
       - pwd
       - ls
+      - yum install terraform -y
   pre_build:
     commands:
       - echo prebuild phase
